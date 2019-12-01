@@ -19,10 +19,10 @@ context('simple test to order chipotle', () => {
       .type('disabled error checking', { force: true })
       .should('have.value', 'disabled error checking')
   });
-
-  it('.focus() - focus on a DOM element', () => {
-    cy.get('.action-focus').focus()
-      .should('have.class', 'focus')
-      .prev().should('have.attr', 'style', 'color: orange;')
-  });
+  //
+  // it('.focus() - focus on a DOM element', () => {
+  //   cy.get('.action-focus').focus()
+  //     .should('have.class', 'focus')
+  //     .prev().should('have.attr', 'style', 'color: orange;')
+  // });
 });
