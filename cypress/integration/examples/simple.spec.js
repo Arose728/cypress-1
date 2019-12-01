@@ -6,7 +6,7 @@ context('simple test to google sunflowers', () => {
   });
   it('enter sunflower', () => {
     cy.get('.gLFyf')
-        .type('sunflower').should('have.value', 'sunflowe')
+        .type('sunflower').should('have.value', 'sunflower')
   });
   it('click on search', () => {
     cy.contains('Google Search').click();
