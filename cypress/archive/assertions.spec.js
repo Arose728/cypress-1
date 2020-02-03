@@ -3,7 +3,7 @@
 context('Assertions', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/assertions')
-  })
+  });
 
   describe('Implicit Assertions', () => {
     it('.should() - make an assertion about the current subject', () => {

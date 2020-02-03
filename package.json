@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "cypress:open": "cypress open"
   },
-  "author": "",
+  "author": "Alex Rose",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.7.0"
+    "cypress": "^3.8.0"
   }
 }
